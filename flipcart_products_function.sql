@@ -16,6 +16,7 @@ $$ language plpgsql
 
 select checkRating(4.6)
 
+select rating , checkRating(rating)from flipcart_products
 -----------------------------------------------------------------------------------------------
 
 create or replace function Check_brandPrice_pro(brand varchar)
